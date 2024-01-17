@@ -4,9 +4,10 @@
 * [Objective](#objective)
 * [Background](#background)
 * [Primary goals](#primary-goals)
-* [Implementation : Phase 1](#phase-1)
-* [Implementation : Phase 2](#phase-2)
-* [Implementation : Phase 3](#phase-3)
+* Project Implementation :
+* [Phase 1](#phase-1)
+* [Phase 2](#phase-2)
+* [Phase 3](#phase-3)
 
 ## Objective
 * Create a utility that will register a short URL for a given longer URL and store it. 
