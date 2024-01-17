@@ -27,7 +27,9 @@ Reference: You can read more details about URL shortening on this [wiki page](ht
 
 ## Implementation
 
-## Phase 1 - Create Gradle Project and write interface method for Short Url generation and retrieval
+## Phase 1 
+### Create Gradle Project and write interface method for Short Url generation and retrieval
+
 #### Key Files
 * ShortURL.java 
 Defines the interface with methods needed for the Short URL utility. Comments in this file define what each method should do.
@@ -36,7 +38,8 @@ It should implement the ShortURL interface.
 * MainApplication.java
 Starting point for execution. This file initializes the ShortURLImpl object and tests out the functionality. 
 
-## Phase 2 - Implement Custom Url and Hit Count features
+## Phase 2 
+### Implement Custom Url and Hit Count features
 Implement the functionality that will enable users to specify their own custom short URL. Also, implement functionality to retrieve the count of how many times a long URL has been looked up.
 
 #### Requirements
@@ -56,7 +59,8 @@ Note: The lookup will happen based on shortUrl, but the count needs to be kept f
 6. Refactor any of the other methods required to support this functionality.
 Do not reset the Hit Count for a longUrl even if the longUrl is deleted using delete().
 
-## Phase 3 - Check if the output is as per desired output 
+## Phase 3 
+### Check if the output is as per desired output 
 Here, I didn't write test case since it is smaller project to demonstrate JAVA basics understanding.
 
 That's it! :)
