@@ -43,7 +43,7 @@ Starting point for execution. This file initializes the ShortURLImpl object and 
 Implement the functionality that will enable users to specify their own custom short URL. Also, implement functionality to retrieve the count of how many times a long URL has been looked up.
 
 #### Requirements
-1. Complete the registerNewUrl(String longUrl, String shortUrl) method in XUrlImpl.java. This is an overloaded method which takes an extra parameter.
+1. Complete the registerNewUrl(String longUrl, String shortUrl) method in ShortURLImpl.java. This is an overloaded method which takes an extra parameter.
 2. Users can specify their own custom shortUrl to be used for a longUrl, using this method. This along with the earlier registerNewUrl(String longUrl) method allows users the flexibility to specify the optional custom short Url.
 3. If the shortUrl already exists, return null.
 4. If the shortUrl is not present, register a mapping between the longUrl and shortUrl specified and return the shortUrl.
@@ -51,7 +51,7 @@ Implement the functionality that will enable users to specify their own custom s
 Note1: Assume that the short URL specified by user will conform to this pattern - http://short.url/<alphanumericstring>
 Note2: Assume that the user will not specify a longUrl which is already present or used.
 
-5. Complete the getHitCount(String longUrl) method in XUrlImpl.java.
+5. Complete the getHitCount(String longUrl) method in ShortURLImpl.java.
 This method should return the number of successful lookups (using getUrl()) that are resolved to the specified longUrl.
 
 Note: The lookup will happen based on shortUrl, but the count needs to be kept for the corresponding longUrl which is looked up.
@@ -62,6 +62,7 @@ Do not reset the Hit Count for a longUrl even if the longUrl is deleted using de
 ## Phase 3 
 ### Check if the output is as per desired output 
 Here, I didn't write test case since it is smaller project to demonstrate JAVA basics understanding.
+Added comments in ShortURLImpl.java for understanding
 
 That's it! :)
 
