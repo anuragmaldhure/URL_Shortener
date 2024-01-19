@@ -8,6 +8,7 @@
 * [Phase 1](#phase-1)
 * [Phase 2](#phase-2)
 * [Phase 3](#phase-3)
+* [Output](#output)
 
 ## Objective
 * Create a utility that will register a short URL for a given longer URL and store it. 
@@ -66,6 +67,9 @@ Added comments in ShortURLImpl.java for understanding
 
 That's it! :)
 
+## Output
+
+![Local Image](./output.png)
 
 
 
