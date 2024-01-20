@@ -1,4 +1,5 @@
 # URL_Shortener
+To demonstrate Core Java Concepts
 
 ## Table of contents
 * [Objective](#objective)
@@ -9,6 +10,10 @@
 * [Phase 2](#phase-2)
 * [Phase 3](#phase-3)
 * [Output](#output)
+
+Also Checkout my other Core Java based Projects :
+* [Scientific Calculator - More Comprehensive Approach](https://github.com/anuragmaldhure/Scientific_Calculator)
+* [Movie Review App - More Comprehensive Approach with RDMBS](https://github.com/anuragmaldhure/Movie_Review_Hackathon)
 
 ## Objective
 * Create a utility that will register a short URL for a given longer URL and store it. 
@@ -70,6 +75,9 @@ That's it! :)
 ## Output
 
 ![Local Image](./output.png)
+
+### My Core Java Practice Assignments (My CDAC assignments)
+[Click here](https://github.com/D3-80316-Anurag-Maldhure/JAVA_Assignments)
 
 
 
