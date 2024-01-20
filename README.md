@@ -1,5 +1,5 @@
 # URL_Shortener
-To demonstrate Core Java Concepts
+To demonstrate Core Java Concepts - Basic Approach
 
 ## Table of contents
 * [Objective](#objective)
